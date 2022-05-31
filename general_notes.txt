@@ -1,0 +1,30 @@
+
+
+
+# run the tests 3 times, adding -vv to view the time to run each
+pytest --durations=3 -vv
+
+
+# if pytest-cov is installed, this shows you % of your input scripts covered by a test
+pytest --cov
+
+
+# if install pytest-sugar, all pytest runs will automatically show a progress bar in terminal
+pip3 install pytest-sugar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
