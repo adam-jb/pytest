@@ -13,8 +13,20 @@ pytest --cov
 pip3 install pytest-sugar
 
 
+# if install pytest-xdist, will run tests multithread, eg:
+pytest -n 5     # 5 threads
+pytest -n auto  # picks best no. of threads for you
 
 
+
+# pytest-mock is pytest integration of unittest.mock
+
+
+
+# pytest-bdd will convert a gherkin file to a pytest file
+pytest-bdd generate gherkin_example_validation.feature >> test_gherkin_example_validation.py
+
+# in pytest-bdd, functions decorated with @given are recognised as fixtures
 
 
 
